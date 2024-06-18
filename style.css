@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(192, 228, 194);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.panel{
+    background-color: white;
+    width: 80%;
+    height: 85%;
+    margin: 5rem 9rem;
+}
+#panelTop{
+    height: 5rem;
+    background-color: rgb(60, 99, 57);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.scoreContent{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2.5rem;
+}
+.para{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1.5rem;
+}
+.scores{
+    background-color: white;
+    width: 2rem;
+    height: 2rem;
+    margin: 2rem 0rem;
+}
+p{
+    padding: 0.5rem;
+}
+.panelButtom{
+     display: flex;
+     gap: 10px;
+     flex-wrap: wrap;   /*for nextLine*/
+     justify-content: center;
+     align-items: center;
+     height: 80%;
+}
+.bubble{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: rgb(60, 99, 57);
+       width: 3rem;
+       height: 3rem;
+       border-radius: 50%;
+       color: white;
+       margin: 1rem;
+}
+.bubble:hover{
+    background-color: rgb(13, 20, 12);
+    cursor: pointer;
+}
+#nheading{
+    font-size: 1.5rem;
+    color: rgb(16, 33, 18);
+
+}
+
